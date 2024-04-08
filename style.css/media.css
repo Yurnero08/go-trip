@@ -1,0 +1,142 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .about__content {
+        gap: 30px;
+    }
+
+    .about__img {
+        max-width: 50%;
+    }
+
+    .catalog__content {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__content {
+        min-height: 100vh;
+    }
+
+    .title, .contact__title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .about__content {
+        flex-direction:column ;
+        align-items: center; 
+    }
+
+    .about__wrapper {
+        max-width: 100%; 
+        text-align: center;
+    }
+
+    .about__img {
+        max-width: 545px;
+    }
+
+    .catalog__content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .card__title {
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }   
+
+    .header__desc {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .header__link {
+        font-size: 14px;
+        max-width: max-content;
+        padding: 10px 30px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .card {
+        max-width: 230px;
+    }
+
+    .contact__desc {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact__link {
+        flex-direction: row;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer__link {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .nav__content {
+        flex-wrap: wrap;    
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 500) {
+    
+    .nav__content {
+        flex-direction: column; 
+        
+    }
+
+    .menu, .footer__links {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .menu__link {
+        margin-left: 0;
+    }
+
+    .header__content {
+        align-items: center;
+    }
+
+    .footer__link {
+        margin-right: 0;
+    }
+
+
+}
